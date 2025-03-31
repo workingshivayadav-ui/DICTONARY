@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictonary </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getdata()">
+    <div class="heading">
+        <H1 style="color: aliceblue;">Dictonary</H1>
+    </div>
+    <div class="container">
+    <div class="box">
+        <div class="write">
+            <input type="text" id="search" placeholder="Search Here " value="bottle" onchange="getdata()">
+        </div>
+        <div>
+            <p>Meaning: <span id="Meaning"></span></p>
+        </div>
+        <div>
+            <p>Example: <span id="Example"></span> </p>
+        </div>
+        <div class="box2">
+            <img src="https://media.istockphoto.com/id/133313561/photo/book-and-glass-loupe.jpg?s=612x612&w=0&k=20&c=c_-XUrih631ObxQA5ODY5mql_1PqEgfpQJXbG-qODPY=" alt="">
+        </div>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
